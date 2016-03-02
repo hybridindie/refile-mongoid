@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = "refile-mongoid"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
 
   gem.required_ruby_version = ">= 2.1.0"
 
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.files         = Dir["README.md", "LICENSE.txt", "lib/**/*"]
   gem.require_path  = "lib"
 
-  gem.add_dependency "refile", "~> 0.5"
+  gem.add_dependency "refile"
   gem.add_dependency 'mongoid', '>= 4.0'
 
   gem.add_development_dependency "rake", "~> 10.0"
